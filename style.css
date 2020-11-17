@@ -1,0 +1,19 @@
+body {
+  margin: 20px;
+  padding: 0px;
+  background: #bebebe;
+}
+.container {
+  max-width: 768px;
+  margin: auto;
+  border: #ffffff solid 2px;
+  background: #ffffff;
+}
+.main-img img,
+.imgs img {
+  width: 100%;
+}
+.imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
